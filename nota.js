@@ -4,11 +4,11 @@ let imgHtml = document.querySelector("#nota")
 let numero1
 do {
     numero1 = Number (prompt("Ingrese su primera nota"))
-} while (isNaN(numero1) || (numero1 < 0) || (numero1 >= 10));
+} while (isNaN(numero1) || (numero1 < 0) || (numero1 > 10));
 let numero2
 do {
     numero2 = Number (prompt("Ingrese su segunda nota"))
-} while (isNaN(numero2) || (numero2 < 0) || (numero2 >= 10));
+} while (isNaN(numero2) || (numero2 < 0) || (numero2 > 10));
 let numero3
 do {
     numero3 = Number (prompt("Ingrese su tercera nota"))
